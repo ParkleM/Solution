@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Implementation6
 {
-    interface IShip
+    public interface IShip
     {
+        string Name { get; set; }
+
+        string ToSail();
+
+        string FromSail();
+
     }
 }
