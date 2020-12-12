@@ -12,7 +12,7 @@ namespace Implementation6
 
         public abstract string Model { get; set; }
 
-        public abstract string Data { get; set; }
+        public abstract int Data { get; set; }
 
         public abstract double Length { get; set; }
 
