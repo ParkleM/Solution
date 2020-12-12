@@ -14,6 +14,7 @@ namespace GUI3
         [STAThread]
         static void Main()
         {
+            Console.Write("Sosi");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
