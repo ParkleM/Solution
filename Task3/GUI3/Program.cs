@@ -15,6 +15,7 @@ namespace GUI3
         static void Main()
         {
             Console.Write("Sosi");
+            Console.Write("Sam Sosi");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
