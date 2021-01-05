@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GUI3.Properties
+namespace GUI6.Properties
 {
 
 
