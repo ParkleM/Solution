@@ -1,6 +1,6 @@
 ﻿namespace GUI6
 {
-    partial class Form1
+    partial class Form6
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -41,7 +41,6 @@
             this.outBox = new System.Windows.Forms.TextBox();
             this.fromSailButt = new System.Windows.Forms.Button();
             this.toSailButt = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -110,7 +109,7 @@
             // 
             // uploadButt
             // 
-            this.uploadButt.Location = new System.Drawing.Point(15, 194);
+            this.uploadButt.Location = new System.Drawing.Point(15, 193);
             this.uploadButt.Name = "uploadButt";
             this.uploadButt.Size = new System.Drawing.Size(100, 23);
             this.uploadButt.TabIndex = 11;
@@ -121,23 +120,23 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(121, 25);
+            this.listBox1.Location = new System.Drawing.Point(121, 1);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(117, 160);
+            this.listBox1.Size = new System.Drawing.Size(117, 186);
             this.listBox1.TabIndex = 12;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // outBox
             // 
-            this.outBox.Location = new System.Drawing.Point(244, 25);
+            this.outBox.Location = new System.Drawing.Point(244, 1);
             this.outBox.Multiline = true;
             this.outBox.Name = "outBox";
-            this.outBox.Size = new System.Drawing.Size(117, 219);
+            this.outBox.Size = new System.Drawing.Size(117, 186);
             this.outBox.TabIndex = 13;
             // 
             // fromSailButt
             // 
-            this.fromSailButt.Location = new System.Drawing.Point(244, 262);
+            this.fromSailButt.Location = new System.Drawing.Point(244, 193);
             this.fromSailButt.Name = "fromSailButt";
             this.fromSailButt.Size = new System.Drawing.Size(100, 23);
             this.fromSailButt.TabIndex = 14;
@@ -147,7 +146,7 @@
             // 
             // toSailButt
             // 
-            this.toSailButt.Location = new System.Drawing.Point(121, 194);
+            this.toSailButt.Location = new System.Drawing.Point(138, 193);
             this.toSailButt.Name = "toSailButt";
             this.toSailButt.Size = new System.Drawing.Size(100, 23);
             this.toSailButt.TabIndex = 15;
@@ -155,19 +154,11 @@
             this.toSailButt.UseVisualStyleBackColor = true;
             this.toSailButt.Click += new System.EventHandler(this.toSailButt_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(121, 265);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 16;
-            // 
-            // Form1
+            // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(371, 312);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(371, 220);
             this.Controls.Add(this.toSailButt);
             this.Controls.Add(this.fromSailButt);
             this.Controls.Add(this.outBox);
@@ -181,7 +172,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.nameBox);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "Form6";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -203,7 +194,6 @@
         private System.Windows.Forms.TextBox outBox;
         private System.Windows.Forms.Button fromSailButt;
         private System.Windows.Forms.Button toSailButt;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

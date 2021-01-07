@@ -88,6 +88,10 @@
       <Project>{c8966597-4884-4510-99f4-e68e53a3b380}</Project>
       <Name>GUI2</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\Task6\GUI6\GUI6.csproj">
+      <Project>{15c58d13-8ea6-4991-82ec-14664d9c1d0b}</Project>
+      <Name>GUI6</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

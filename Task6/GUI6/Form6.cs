@@ -12,7 +12,7 @@ using Implementation6;
 
 namespace GUI6
 {
-    public partial class Form1 : Form
+    public partial class Form6 : Form
     {
         private int b = 0;
         List list = new List();
@@ -20,7 +20,7 @@ namespace GUI6
         private double Lenght;
         private String NameA;
         private String Model;
-        public Form1()
+        public Form6()
         {
             InitializeComponent();
         }
