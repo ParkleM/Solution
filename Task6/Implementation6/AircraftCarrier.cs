@@ -16,7 +16,7 @@ namespace Implementation6
         public int Crew { get; set; }
         public int Aircraft { get; set; }
 
-        AircraftCarrier(string name, string model, int data, double length)
+        public AircraftCarrier(string name, string model, int data, double length)
         {
             Name = name;
             Model = model;

@@ -20,6 +20,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task9", "Task9", "{FAE51278-4B04-45BE-AB3D-4DF5BC9BF9CB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainForm", "MainForm\MainForm\MainForm.csproj", "{CB6C060D-5B23-4052-B14B-5D3E114715E1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{15C58D13-8EA6-4991-82EC-14664D9C1D0B} = {15C58D13-8EA6-4991-82EC-14664D9C1D0B}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implementation1", "Task1\Implementation1\Implementation1.csproj", "{C3C79EF0-791D-468C-A8EB-B071B48DF6E0}"
 EndProject

@@ -8,9 +8,9 @@ namespace Implementation6
 {
     public class List
     {
-        private List<AircraftCarrier> ShipList { get; set; }
+        public List<AircraftCarrier> ShipList { get; set; }
 
-        List()
+        public List()
         {
             ShipList = new List<AircraftCarrier>();
         }
@@ -38,6 +38,11 @@ namespace Implementation6
         public bool ContainsShip(AircraftCarrier a)
         {
             return ShipList.Contains(a) ? true : false;
+        }
+
+        public int Count()
+        {
+            return ShipList.Count;
         }
     }
 }
